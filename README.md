@@ -1,79 +1,79 @@
-# 小牛教务管理系统（单机构版）
+# 培训机构管理系统(多租户)
 
-### 介绍 📖
+专为中小型教育培训机构打造。核心功能完整，开箱即用；代码清晰，二次开发无忧。
 
-这是一套专为**教培行业**提供云化管理解决方案，是一套**画面简洁，操作简单，功能以实用为主**的项目。系统具有学员管理、学员报读、排课、消课等核心业务功能；系统正迭代开发更新中。应用端包括PC管理端、教师端（微信小程序）、家长端（微信小程序）；支持**私有化部署**。
+**覆盖排课管理、学员管理、课程报读、上课点名等全流程需求**
 
-### 联系我们
+---
 
-- QQ: 535671113
-- **如果您觉得我们的项目很有帮助，请点击⭐Star**
+## 🎉 特性
 
-------
+- 🏢 多租户架构：一套系统，可同时服务成千上万机构，数据完全隔离。
 
-### 在线预览 👀
+- 📱 微信公众号：老师和家长在公众号内即可操作，无需下载 App。
 
-- Link：https://jiaowu.range8.cn/demo.php
+- 👥 双端协作：简洁的教师端、家长端 与 强大的管理后台，权责清晰。
 
-- UNIAPP（教师端 + 家长端）: 
+- ⚙️ 流程顺滑：功能与流程均源自一线教师建议，优化至真正**顺手**。
 
-  <img src="https://jwxt-web.range8.cn/Niu-Education-Admin-master/typora-user-images/uniapp.jpg" alt="image-20240417214811243" style="zoom: 80%;text-align:center;" />
+- 🚀 稳定可靠：已被众多机构与企业长期使用，**系统成熟，运行稳定**。
 
-### 项目技术 🔨
+- 🧩 高扩展性： 后端基于 Webman，前端采用 Vue，数据库使用 MySQL，代码结构清晰，便于二次开发与功能定制。
 
-- 移动端框架：uniapp + uviewUI
-- 后端接口框架：Thinkphp 6.1.0
+## 💬 交流与支持
 
-### 项目功能 🔥
+### 商务合作与定制开发：欢迎通过 QQ 联系 **535671113**。
 
-- 招生中心：意向学员、跟进管理、试听管理
-- 教务中心：课程管理、班级管理、排课、课表
-- 学员管理
-- 订单管理
-- 上课管理：上课记录，上课点名、补课、请假
-- 内部管理：职工管理、教室管理
+**在线体验与 SaaS 版：如果您希望免部署直接使用，我们亦提供稳定的 SaaS 云端服务，点击这里免费试用。**
 
-### 项目截图 📷
+🌐 演示地址 [🎉 Education-Admin （后台管理系统，多租户架构，微信公众号）](https://jwxt-web.range8.cn/login-admin/)
 
-#### 一、pc端口
+<table>
+<tr>
+<td>
+<img width="200px" src="https://jw-h5.malicat.com/static/images/markdown/QQ.jpg">
+</td>
+</tr>
+</table>
 
-- 首页
+## 🗃️ 效果图
 
-  ![image-20240417214811243](https://jwxt-web.range8.cn/Niu-Education-Admin-master/typora-user-images/admin/1.png)
+移动端效果图展示：
 
-- 学员管理
+<table >
+<tr >
+<td >
+<img width="200px" src="https://jw-h5.malicat.com/static/images/markdown/1750586269307.png">
+</td>
+<td >
+<img width="200px" src="https://jw-h5.malicat.com/static/images/markdown/1750586183767.png">
+</td>
+<td >
+<img width="200px" src="https://jw-h5.malicat.com/static/images/markdown/1750583938749.png">
+</td>
+<td >
+<img width="200px" src="https://jw-h5.malicat.com/static/images/markdown/1750586561645.png">
+</td>
+</tr>
+</table>
 
-  ![image-20240417214811243](https://jwxt-web.range8.cn/Niu-Education-Admin-master/typora-user-images/admin/14.png)
+PC 端效果图展示：
 
-- 课程报读
-
-  ![image-20240417214811243](https://jwxt-web.range8.cn/Niu-Education-Admin-master/typora-user-images/admin/15.png)
-
-- 排课、课表
-
-  ![image-20240417214811243](https://jwxt-web.range8.cn/Niu-Education-Admin-master/typora-user-images/admin/13.png)
-
-  ![image-20240417214811243](https://jwxt-web.range8.cn/Niu-Education-Admin-master/typora-user-images/admin/2.png)
-
-- 上课点名
-
-  ![image-20240417214811243](https://jwxt-web.range8.cn/Niu-Education-Admin-master/typora-user-images/admin/18.png)
-
-  #### 二、移动端
-
-  ![banner](https://jwxt-web.range8.cn/Niu-Education-Admin-master/typora-user-images/banner/1.png)
-
-  ![banner](https://jwxt-web.range8.cn/Niu-Education-Admin-master/typora-user-images/banner/2.png)
-
-  ![banner](https://jwxt-web.range8.cn/Niu-Education-Admin-master/typora-user-images/banner/3.png)
-
-### 浏览器支持 🌎
-
-- 本地开发推荐使用 Chrome 最新版浏览器 [Download](https://www.google.com/intl/zh-CN/chrome/)。
-- 生产环境支持现代浏览器，不再支持 IE 浏览器，更多浏览器可以查看 [Can I Use Es Module](https://caniuse.com/?search=ESModule)。
-
-| ![IE](https://i.imgtg.com/2023/04/11/8z7ot.png) | ![Edge](https://i.imgtg.com/2023/04/11/8zr3p.png) | ![Firefox](https://i.imgtg.com/2023/04/11/8zKiU.png) | ![Chrome](https://i.imgtg.com/2023/04/11/8zNrx.png) | ![Safari](https://i.imgtg.com/2023/04/11/8zeGj.png) |
-| :---------------------------------------------: | :-----------------------------------------------: | :--------------------------------------------------: | :-------------------------------------------------: | :-------------------------------------------------: |
-|                   not support                   |                  last 2 versions                  |                   last 2 versions                    |                   last 2 versions                   |                   last 2 versions                   |
-
-
+<table>
+<tr >
+<td>
+<img  src="https://jw-h5.malicat.com/static/images/markdown/1750413591852.png">
+</td>
+<td >
+<img  src="https://jw-h5.malicat.com/static/images/markdown/1750583655930.png">
+</td>
+</tr>
+<tr >
+<td >
+<img  src="https://jw-h5.malicat.com/static/images/markdown/1750585195253.png">
+</td>
+<td >
+<img  src="https://jw-h5.malicat.com/static/images/markdown/1750582185542.png">
+</td>
+</tr>
+</table>
